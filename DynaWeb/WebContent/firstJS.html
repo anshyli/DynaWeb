@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script language="JavaScript">
+<!--
+function Hello() {
+	alert("Hello World!");
+}
+function listTags()
+{
+ var tag, tags;
+ // or you can use var allElem=document.all; and loop on it
+ tags = "The tags in the page are:"
+ for(i = 0; i < document.all.length; i++)
+ {
+   tag = document.all(i).tagName;
+   tags = tags + "<br/>" + tag;
+ }
+ document.write(tags);
+}
+//-->
+</script>
+</head>
+<body onload="Hello()">
+	<button onclick="listTags()">List all tags</button>
+</body>
+</html>
